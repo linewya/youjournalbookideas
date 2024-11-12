@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compartilhe suas ideias de livros e diários com o YouJournalBookIdeas.">
+    <title>YouJournalBookIdeas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>YouJournalBookIdeas</h1>
+            <p>Compartilhe suas ideias sobre livros e diários!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#ideias">Ideias</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o YouJournalBookIdeas</h2>
+            <p>O YouJournalBookIdeas é um espaço dedicado a todos que amam livros e gostam de compartilhar suas ideias. Crie diários digitais, escreva resenhas ou inspire-se com as ideias de outros leitores.</p>
+        </section>
+
+        <section id="ideias">
+            <h2>Compartilhe Sua Ideia</h2>
+            <form id="form-ideias">
+                <label for="titulo">Título do Livro/Diário:</label>
+                <input type="text" id="titulo" name="titulo" required>
+
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+                <button type="submit">Compartilhar Ideia</button>
+            </form>
+
+            <h3>Ideias Recentes</h3>
+            <div id="lista-ideias">
+                <!-- As ideias serão listadas aqui via JavaScript -->
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p>Tem alguma dúvida ou sugestão? Entre em contato conosco!</p>
+            <form id="form-contato">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Seu E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Sua Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 YouJournalBookIdeas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
