@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #ff71b3;
     color: white;
     padding: 20px;
     text-align: center;
@@ -69,13 +69,13 @@ form input, form textarea, form button {
 }
 
 form button {
-    background-color: #4CAF50;
+    background-color: #ff71b3;;
     color: white;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #45a049;
+    background-color: #ff71b3;;
 }
 
 #lista-ideias {
